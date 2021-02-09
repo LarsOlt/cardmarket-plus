@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "Cardmarket Plus",
-  "version": "0.1",
+  "version": "0.1.0",
   "description": "Adds additional features like price sorting to cardmarket.com",
   "permissions": [],
   "web_accessible_resources": ["images/*"],
