@@ -18,3 +18,7 @@ Confirmed support for the following browsers (others might work too).
 ## Current features
 
 * Sort product listings by price
+
+## How to install (prerelease)
+
+Chrome: [Guide](https://webkul.com/blog/how-to-install-the-unpacked-extension-in-chrome/)
