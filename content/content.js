@@ -85,7 +85,7 @@ class ProductMenu {
   };
 }
 
-const isProductSite = /\/products/gi.test(window.location.pathname);
+const isProductSite = /\/Products/g.test(window.location.pathname);
 
 if (isProductSite) {
   new ProductMenu().initialize();
