@@ -6,7 +6,6 @@ class ProductMenu {
     elementAboveCPMenu: () => document.querySelector("#tabs"),
   };
 
-  // todo
   insertMenu = () => {
     this.sourceDomNodes.elementAboveCPMenu().insertAdjacentHTML(
       "afterend",
