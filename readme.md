@@ -2,8 +2,11 @@
 
 ## About
 
-Cardmarket Plus is an unofficial browser extension for [cardmarket](https://www.cardmarket.com).<br>
+Cardmarket Plus is an unofficial browser extension for [cardmarket](https://www.cardmarket.com).
+
 It adds additional features to enhance the experience.
+
+
 
 
 ## Supported browsers
