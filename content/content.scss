@@ -1,0 +1,53 @@
+$extension-path: "chrome-extension://__MSG_@@extension_id__/";
+
+#_cp-productMenu {
+  width: 100%;
+  background-color: white;
+
+  /* Adjust styling to cardmarket UI */
+  border-radius: 5px;
+  margin-top: 1rem;
+  border: 1px solid rgb(222, 226, 230);
+  padding: 1em;
+
+  .heading {
+    color: black;
+    font-size: 1.2em;
+  }
+
+  .button-wrapper {
+    display: flex;
+    margin-top: 1em;
+
+    button {
+      height: 1.5em;
+      margin-right: 1em;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 0.5em;
+      border: 0;
+      border-radius: 3px;
+      box-shadow: 0 0px 2px grey;
+    }
+  }
+}
+
+.table-body._cp-loading {
+  position: relative;
+  transition: all 250ms;
+
+  &::after {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    content: "";
+    background-color: rgba(189, 189, 189, 0.445);
+    background-image: url($extension-path + "images/spinner.svg");
+    background-repeat: no-repeat;
+    background-position: center 2%;
+    background-size: 7rem 7rem;
+    top: 0;
+    left: 0;
+  }
+}

@@ -9,7 +9,7 @@
   "content_scripts": [
     {
       "matches": ["https://*.cardmarket.com/*"],
-      "css": ["content/content.css"],
+      "css": ["out/content.css"],
       "js": ["libs/currency.min.js", "content/content.js"],
       "run_at": "document_idle"
     }

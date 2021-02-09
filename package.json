@@ -1,0 +1,23 @@
+{
+  "name": "cardmarket-plus",
+  "version": "1.0.0",
+  "description": "Cardmarket Plus is an unofficial browser extension for [cardmarket](https://www.cardmarket.com).<br>\r It adds additional features to enhance the experience.",
+  "scripts": {
+    "build": "node-sass content/content.scss out/content.css",
+    "dev" : "node-sass content/content.scss out/content.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LarsOlt/cardmarket-plus.git"
+  },
+  "keywords": [],
+  "author": "Lars Öltjenbruns",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LarsOlt/cardmarket-plus/issues"
+  },
+  "homepage": "https://github.com/LarsOlt/cardmarket-plus#readme",
+  "devDependencies": {
+    "node-sass": "^5.0.0"
+  }
+}
