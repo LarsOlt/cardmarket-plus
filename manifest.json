@@ -1,0 +1,17 @@
+{
+  "manifest_version": 2,
+  "name": "Cardmarket Plus",
+  "version": "1.0",
+  "description": "Adds additional features like price sorting to cardmarket.com",
+  "permissions": [],
+  "web_accessible_resources": ["images/*"],
+  "background": { "scripts": ["libs/hot-reload.js"] },
+  "content_scripts": [
+    {
+      "matches": ["https://*.cardmarket.com/*"],
+      "css": ["content/content.css"],
+      "js": ["libs/currency.min.js", "content/content.js"],
+      "run_at": "document_idle"
+    }
+  ]
+}
