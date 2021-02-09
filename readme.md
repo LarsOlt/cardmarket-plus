@@ -21,8 +21,4 @@ Confirmed support for the following browsers (others might work too).
 
 ## How to install (prerelease)
 
-Chrome:
-  
-  1. Go to [chrome://extensions/](chrome://extensions/)
-  2. Turn on developer mode in the top right corner
-  3. Click on the "Load unpacked extension" button
+Chrome: [Guide](https://webkul.com/blog/how-to-install-the-unpacked-extension-in-chrome/)
