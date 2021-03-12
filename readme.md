@@ -17,7 +17,9 @@ Confirmed support for the following browsers (others might work too).
 
 ## Current features
 
-* Sort product listings by price
+* Sort product listings by price (ascending order)
+
+![toolbar](https://github.com/LarsOlt/cardmarket-plus/blob/master/screenshots/1.png)
 
 ## How to install (prerelease)
 
